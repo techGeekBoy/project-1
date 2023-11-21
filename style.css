@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  height: 86px;
+  background: #fcaf02;
+  display: flex;
+  padding-inline: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+nav > div > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  padding-inline: 10px;
+}
+#section {
+  display: flex;
+  margin-top: 70px;
+  width: 95vw;
+  padding-inline: 20px;
+  justify-content: space-between;
+}
+#my img {
+  width: 697px;
+  height: 482px;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#content > h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+#content > p {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+#content > button {
+  width: 323px;
+  height: 66px;
+  border-radius: 500px;
+  background: #fcaf02;
+  border: none;
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#form {
+  width: 95vw;
+  margin-top: 80px;
+  margin: auto;
+  padding-inline: 30px;
+}
+#form > h3 {
+  color: #fcaf02;
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+#form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  height: 82px;
+  border-radius: 100px;
+  border: 2px solid #fcaf02;
+  width: 95%;
+  background-color: #000;
+  padding: 20px;
+  margin-top: 45px;
+}
+::placeholder {
+  color: #fcaf02;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 25px;
+}
+form > div {
+  display: flex;
+  width: 95%;
+  gap: 25px;
+}
+form > button {
+  height: 82px;
+  border-radius: 100px;
+  border: 2px solid #fcaf02;
+  background: #fcaf02;
+  width: 300px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+table {
+  width: 95vw;
+  margin: auto;
+  margin-top: 80px;
+  color: #fcaf02;
+  border: 2px solid #fcaf02;
+  border-collapse: collapse;
+  height: 500px;
+  align-items: center;
+  text-align: left;
+}
+th {
+  font-size: 28px;
+  font-weight: 400;
+  border: 1px solid #fcaf02;
+  padding: 30px;
+}
+td {
+  font-size: 28px;
+  font-weight: 400;
+  border-right: 1px solid #fcaf02;
+  padding: 30px;
+}
+tfoot>tr>td {
+  background-color: #fcaf02;
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+  border-right: 3px solid #000;
+}
